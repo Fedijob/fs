@@ -1,0 +1,619 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  height: 600px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #43a047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #6986e2;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ef3b3a;
+}
+body {
+  background: #383a38;
+  background: #383a38;
+  background: linear-gradient(#383a38);
+
+
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 6px 12px;
+  color: white;
+  font-weight: bold;
+}
+.navbar li {
+  cursor: pointer;
+}
+.navbar li:hover {
+  color: #43a047;
+}
+.create {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.create input {
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.create button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  background-color: #43a047;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+}
+.cont {
+  width: 48%;
+  margin: 0 auto;
+}
+
+.post {
+  color: black;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 12px;
+}
+.post img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.modal-bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.205);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 600px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.modal .actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 20px;
+}
+.button-delete-readMore {
+  display: flex;
+  justify-content: space-between;
+}
+.tout {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.profil-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo-profil {
+  width: 100%;
+}
+
+.profil-description {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profil-description .exemples {
+  width: 600px;
+}
+.profil-description .exemples img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.info-personel {
+  width: 380px;
+  max-height: 400px;
+  min-height: 400px;
+  top: 0;
+  display: block;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: x-small;
+}
+.info-personel img {
+  width: 350px;
+  height: 150px;
+  margin-left: 15px;
+}
+.logo-profil {
+  width: 380px;
+  background-color: rgb(255, 255, 255);
+  max-height: 400px;
+  min-height: 400px;
+  padding: 10px;
+}
+.logo-profil img {
+  width: 100%;
+  height: 400px;
+}
+.avis {
+  width: 380px;
+  background-color: rgb(255, 255, 255);
+  max-height: 400px;
+  min-height: 400px;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+.carousel{
+  width: 80%;
+  height: 50%;
+margin-top: 40px;
+
+display: flex;
+justify-content: center;
+}
+body{
+  background-color: #383a38 !important;
+}
+.d-block w-100{
+  min-width: none; 
+  min-height: 50%;
+  max-height: 500px;
+  max-width: 217px;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.footer{
+  margin-top: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+ html, body {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+}
+ body {
+	 font-family: 'Roboto Slab', serif;
+	 color: #000;
+	 margin: 0;
+	 padding: 0;
+}
+ .heading {
+	 background: white;
+	 height: 5%;
+	 margin: 10px;
+	 padding: 10px;
+}
+ .swiper-container {
+	 width: 100%;
+	 height: 90%;
+}
+ .swiper-slide {
+	 text-align: center;
+	 background: #fff;
+	/* Center slide text vertically */
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .container-general {
+	 padding: 75px 0;
+	 margin: 0 auto;
+	 width: 800px;
+}
+ .container-general .gallery-wrap {
+	 display: flex;
+	 flex-direction: row;
+	 width: 100%;
+	 height: 70vh;
+}
+ .container-general .gallery-wrap .item {
+	 flex: 1;
+	 height: 100%;
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: none;
+	 transition: all 0.8s ease;
+}
+ .container-general .gallery-wrap .item:hover {
+	 flex: 7;
+}
+ .wrap-effect-1 .item:first-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4185141/galshir-cactus-coffee.png');
+}
+ .wrap-effect-1 .item:nth-of-type(2) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/6146136/galshir-tea-biscuit_2x.png');
+}
+ .wrap-effect-1 .item:nth-of-type(3) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4473482/galshir-dog-walker.gif');
+}
+ .wrap-effect-1 .item:nth-of-type(4) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5743606/gal-shir-scooter_2x.png');
+}
+ .wrap-effect-1 .item:last-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4738104/galshir-storytime.png');
+}
+ .wrap-effect-2 .item:hover {
+	 transform: translate3d(0, 0, 100px);
+	 box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+	 filter: saturate(2) contrast(120%);
+}
+ .wrap-effect-2 .item:first-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4854597/galshir-umbrella.jpg');
+}
+ .wrap-effect-2 .item:nth-of-type(2) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4776189/galshir-genesis.png');
+}
+ .wrap-effect-2 .item:nth-of-type(3) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5329211/galshir-walking.gif');
+}
+ .wrap-effect-2 .item:nth-of-type(4) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4611698/galshir-paper-boat.png');
+}
+ .wrap-effect-2 .item:last-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4544774/galshir-window.png');
+}
+ .wrap-effect-3 .item:hover {
+	 animation: rotate 0.7s ease-in-out both;
+	 border-radius: 10px;
+	 border: 1px solid gray;
+}
+ .wrap-effect-3 .item:first-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5947483/galshir-wind_2x.png');
+}
+ .wrap-effect-3 .item:nth-of-type(2) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5754705/galshir-rain_2x.png');
+}
+ .wrap-effect-3 .item:nth-of-type(3) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5355160/galshir-attack.gif');
+}
+ .wrap-effect-3 .item:nth-of-type(4) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4742049/galshir-samurai.png');
+}
+ .wrap-effect-3 .item:last-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5594777/galshir-winter-cycling_2x.jpg');
+}
+ .wrap-effect-4 .item:hover {
+	 box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+	 filter: saturate(2) contrast(120%);
+}
+ .wrap-effect-4 .item:first-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4226693/galshir-iphone-x-lemonade.gif');
+}
+ .wrap-effect-4 .item:nth-of-type(2) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4475663/galshir-musical-instruments.gif');
+}
+ .wrap-effect-4 .item:nth-of-type(3) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/5431797/galshir-lemonade-ring.gif');
+}
+ .wrap-effect-4 .item:nth-of-type(4) {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4419736/galshir-lemonade-bike.gif');
+}
+ .wrap-effect-4 .item:last-of-type {
+	 background-image: url('https://cdn.dribbble.com/users/729829/screenshots/4281500/galshir-lemonade-camera.gif');
+}
+ .inspire {
+	 border: 1px solid rgba(22, 76, 167, 0.6);
+	 border-radius: 10px;
+	 cursor: pointer;
+	 overflow: hidden;
+	 position: relative;
+	 text-decoration: none;
+	 margin: 10px;
+	 padding: 10px;
+}
+ .inspire:after {
+	 background: #38ef7d;
+	 content: "";
+	 height: 155px;
+	 left: -75px;
+	 opacity: 0.4;
+	 position: absolute;
+	 top: -50px;
+	 transform: rotate(35deg);
+	 transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+	 width: 50px;
+	 z-index: -10;
+}
+ .inspire:hover:after {
+	 left: 120%;
+	 transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+ @keyframes rotate {
+	 0% {
+		 transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+	 25% {
+		 transform: rotate(10deg) translate3d(0, 0, 0);
+	}
+	 50% {
+		 transform: rotate(-10deg) translate3d(0, 0, 0);
+	}
+	 75% {
+		 transform: rotate(5deg) translate3d(0, 0, 0);
+	}
+	 100% {
+		 transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+}
+ 
